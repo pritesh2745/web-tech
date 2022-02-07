@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul{
+    display: flex;
+    justify-content: flex start;
+    align-items: center;
+    height: 50px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: rgb(10, 11, 14);
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+color: rgb(69, 88, 75);
+}
+header{
+    background-color: rgb(202, 216, 241);
+    font-family: 'Glory', sans-serif;
+}
+
+.footer{
+    height:1vh ;
+    font-family: 'Glory', sans-serif;
+    
+}
+.reviews{
+margin: 5vw;
+}
+.icons{
+    text-decoration: none;
+     list-style: none;
+     display: flex;
+    justify-content: flex start;
+    align-items: center;
+    padding: 1vw;
+
+}
+a{
+    color: black;
+}
+
+.p{
+    padding: 5vw;
+}
+.location{
+    padding: 3vw;
+}
+
+   
+.image {
+    background: rgba(2, 2, 2, 0.342) url("/img/img1.jpg");
+    background-blend-mode: darken;
+    /* background-color: #cccccc; */
+    height: 100vh;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* position: relative; */
+  }
+  
+ 
+
+
+  
+.column {
+    float: left;
+    width: 80%;
+
+    padding: 20px 10px;
+  }
+  
+  .row {margin: 0 350px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 14px 14px 0 rgba(12, 12, 12, 0.575);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    padding-left: 10px ;
+    background-color: #e9e9e960;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+.column1 {
+    float: center;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .column1 {
+      width: 100%;
+    }
+  }
+  .screenshot{
+    display:block ;
+text-align: center;
+font-size: larger;
+color: antiquewhite;
+  }

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul{
+    display: flex;
+    justify-content: flex start;
+    align-items: center;
+    height: 50px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: rgb(10, 11, 14);
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+color: rgb(69, 88, 75);
+}
+header{
+    background-color: rgb(202, 216, 241);
+    font-family: 'Glory', sans-serif;
+}
+
+.footer{
+    background-color: rgba(150, 150, 150, 0.288);
+    
+    font-family: 'Glory', sans-serif;
+    
+}
+.reviews{
+margin: 5vw;
+}
+.icons{
+    text-decoration: none;
+     list-style: none;
+     display: flex;
+    justify-content: flex start;
+    align-items: center;
+    padding: 1vw;
+
+}
+a{
+    color: black;
+}
+
+.p{
+    padding: 5vw;
+}
+.location{
+    padding: 3vw;
+}
+
+.image {
+    background: rgba(2, 2, 2, 0.596) url("/img/20211214_081658.jpg");
+    background-blend-mode: darken;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+  }
+  
+ 
+
+
+  
+.column {
+    float: left;
+    width: 25%;
+
+    padding: 200px 10px;
+  }
+  
+  .row {margin: 0 50px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 14px 14px 0 rgba(12, 12, 12, 0.575);
+    padding: 88px;
+    text-align: center;
+    background-color: #64626285;
+    border-radius: 20px;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25vh;
+    
+}
+.container h1{
+    font-size: 80px;
+color: rgba(231, 193, 144, 0.562);
+}
+.devang_p{
+display: flex;
+text-align: center;
+justify-content: center;
+    align-content: center;
+    width: 70%;
+   color: rgba(248, 248, 248, 0.425);
+    margin: auto;
+    padding-top: 10vh;
+    word-spacing: 2px;
+}
